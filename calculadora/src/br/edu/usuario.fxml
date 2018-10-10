@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="212.0" prefWidth="352.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.UsuarioController">
+   <children>
+      <Button fx:id="telaPrincipal" layoutX="256.0" layoutY="154.0" mnemonicParsing="false" onAction="#telaPrincipal" prefHeight="42.0" prefWidth="83.0" text="Entrar" />
+      <JFXTextField fx:id="txtusuario" labelFloat="true" layoutX="29.0" layoutY="40.0" prefHeight="25.0" prefWidth="240.0" promptText="Usuário" />
+      <JFXTextField fx:id="txtsenha" labelFloat="true" layoutX="29.0" layoutY="106.0" prefHeight="25.0" prefWidth="240.0" promptText="Senha" />
+   </children>
+</AnchorPane>
