@@ -20,7 +20,7 @@ public class ifro extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("TelaPrincipal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("telaPrincipal.fxml"));
         
         Scene scene = new Scene(root);
         
